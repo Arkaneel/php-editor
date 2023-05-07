@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+  <!--jquery-->
+  <script src="./modules/jquery.min.js"></script>
+  <!--ace-->
+  <script src="./modules/ace/ace.js"></script>
+  <title>PHP Editor</title>
+</head>
+<body>
+  <div class="header">
+    <pre>Editor ~ Version 1.0 PHP.sys  UTF-8</pre>
+  </div>
+  <div class="container">
+    <button id="run" class="run">
+      $Run</button>
+    <button id="save" class="save">
+      $Save</button>
+    <div name="editor" id="editor" class="editor"></div>
+    <iframe id="viewer" class="viewer" frameborder="1"></iframe>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
